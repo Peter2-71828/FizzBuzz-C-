@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void fizzbuzz(int array[4]) {
+void fizzbuzz(int array[]) {
   for (int i = 0; i < 4; i++) {
     if (array[i] % 15 == 0) {
       cout << "FizzBuzz";
